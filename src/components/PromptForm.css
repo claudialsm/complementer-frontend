@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+}
+
+main {
+  margin: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type='text'] {
+  padding: 1vh 1rem;
+  width: 85%;
+  height: 2.5vh;
+  font-size: 2vh;
+  border: 1px solid #ccc;
+  border-radius: 32px;
+}
+
+input::placeholder {
+  font-size: 2vh;
+  overflow: visible;
+}
+
+button {
+  background-color: inherit;
+  padding: 0;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit-button-icon {
+  margin-left: 0.5rem;
+  width: 4vh;
+  height: 4vh;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
